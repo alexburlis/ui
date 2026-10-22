@@ -16,6 +16,7 @@ vi.mock("prompts")
 
 describe("updateDependencies", () => {
   afterEach(() => {
+    vi.resetAllMocks()
     vi.restoreAllMocks()
   })
 
@@ -355,6 +356,7 @@ describe("assertSafeDependencies", () => {
 
 describe("dependency commands", () => {
   afterEach(() => {
+    vi.resetAllMocks()
     vi.restoreAllMocks()
   })
 
