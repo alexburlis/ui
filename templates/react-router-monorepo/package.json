@@ -17,5 +17,16 @@
   "packageManager": "pnpm@11.25.0",
   "engines": {
     "node": ">=22.22.0"
+  },
+  "pnpm": {
+    "overrides": {
+      "@hono/node-server@1.19.14": "1.19.15",
+      "baseline-browser-mapping@2.10.32": "2.11.0",
+      "body-parser@2.2.2": "2.3.0",
+      "browserslist@4.28.2": "4.28.7",
+      "morgan@1.10.1": "1.12.1",
+      "qs@6.15.2": "6.16.0",
+      "valibot@1.4.1": "1.4.2"
+    }
   }
 }

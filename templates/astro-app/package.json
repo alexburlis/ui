@@ -37,5 +37,12 @@
     "prettier-plugin-tailwindcss": "^0.8.1",
     "typescript": "~6.0.2",
     "typescript-eslint": "^8"
+  },
+  "pnpm": {
+    "overrides": {
+      "baseline-browser-mapping@2.10.32": "2.11.0",
+      "browserslist@4.28.2": "4.28.7",
+      "source-map-js@1.2.1": "1.2.2"
+    }
   }
 }

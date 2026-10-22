@@ -18,5 +18,11 @@
   "packageManager": "pnpm@11.25.0",
   "engines": {
     "node": ">=20.19.0"
+  },
+  "pnpm": {
+    "overrides": {
+      "baseline-browser-mapping@2.10.32": "2.11.0",
+      "browserslist@4.28.2": "4.28.7"
+    }
   }
 }

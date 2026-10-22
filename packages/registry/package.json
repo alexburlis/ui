@@ -64,7 +64,7 @@
     "test": "vitest run"
   },
   "dependencies": {
-    "@babel/core": "^7.28.0",
+    "@babel/core": "^7.29.6",
     "@babel/parser": "^7.28.0",
     "@babel/plugin-transform-typescript": "^7.28.0",
     "@babel/preset-typescript": "^7.27.1",
@@ -94,7 +94,7 @@
     "@types/fs-extra": "^11.0.4",
     "@types/prompts": "^2.4.9",
     "@types/stringify-object": "^4.0.5",
-    "esbuild": "^0.27.7",
+    "esbuild": "^0.28.1",
     "msw": "^2.10.4",
     "rimraf": "^6.0.1",
     "ts-morph": "^26.0.0",
